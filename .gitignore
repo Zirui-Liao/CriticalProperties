@@ -1,0 +1,26 @@
+
+# Ignore everything by default
+*
+
+# Allow directories to be traversed
+!*/
+
+# Keep project metadata
+!.gitignore
+!.gitattributes
+!README.md
+!requirements.txt
+
+# Keep raw_data
+!raw_data/
+!raw_data/**
+
+# Keep Python scripts in selected folders
+!split/*.py
+!split/**/*.py
+
+!run/*.py
+!run/**/*.py
+
+!plots/*.py
+!plots/**/*.py

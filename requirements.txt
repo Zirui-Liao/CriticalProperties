@@ -1,0 +1,13 @@
+numpy==1.26.4
+pandas==2.2.3
+matplotlib==3.10.0
+scikit-learn==1.2.2
+rdkit==2024.3.6
+umap-learn==0.5.7
+optuna==4.1.0
+torch==2.1.2
+tensorboard==2.19.0
+lightning==2.4.0
+chemprop==2.1.0
+joblib==1.4.2
+xgboost==3.0.1
