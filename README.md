@@ -6,7 +6,7 @@ The main model families are:
 
 - Transformer models over SMILES strings
 - Chemprop MPNN models
-- Fingerprint-based classical ML and MLP baselines
+- Fingerprint-based classical ML (SVM, RF, XGBoost) and MLP baselines
 
 ## Important Data Requirement
 
@@ -47,7 +47,7 @@ All SMILES used for Transformer modeling must be compatible with the prepared vo
 1. Validate and clean SMILES in the raw data.
 2. Generate cleaned training data, for example with `split/cutting_exp_data.py`.
 3. Generate fold files using one of the split scripts in `split/`.
-4. Run reference Optuna searches and fixed-structure training scripts from `run/`.
+4. Run reference Optuna searches and training scripts from `run/`.
 5. Use scripts under `plots/` to aggregate metrics and create figures.
 
 ## Installation
